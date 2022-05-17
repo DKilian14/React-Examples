@@ -1,0 +1,76 @@
+body {
+  background-color: #232121;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:white;
+
+  background-image: url('./images/React_Icon_Large.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 30%;
+  background-size: contain;
+}
+
+
+.nav-bar{
+  background-color: #21222B;
+
+  display:flex;
+
+  font-family: 'Inter';
+  color:white;
+}
+.nav-logo{
+  height: 50px;
+
+  margin-right: 7px;
+  margin-left: 7px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+
+  border-radius:  25px;
+}
+.nav-title{
+  color:#61DAFB;
+}
+.nav-statement{
+  margin-left: auto;
+  margin-right:10px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+.Main-Content{
+  padding-top: 20px;
+  margin-left: 7%;
+  letter-spacing: -.05em;
+
+
+}
+
+.Main-List-Title{
+  letter-spacing: -.05em;
+  font-size: 40px;
+}
+
+.Main-List{
+  padding-top: 10px;
+  max-width: 400px;
+}
+
+.Main-List li{
+  font-size: 20px;
+
+}
+
+.Main-List li::marker{
+  font-size: 2rem;
+  color: #61DAFB;
+}
